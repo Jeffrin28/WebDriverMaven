@@ -13,7 +13,7 @@ public class mavenex {
 
 	@BeforeSuite
 	public void setUp() {
-		System.setProperty("webdriver.chrome.driver", "C:\\New folder\\chromedriver1.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\jaberson\\Downloads\\chromedriver_new.exe");
 		driver = new ChromeDriver();
 
 	}
